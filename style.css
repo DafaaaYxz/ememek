@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#terminal {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Scrollbar styling ala Termux (hidden/minimal) */
+.xterm-viewport::-webkit-scrollbar {
+    width: 5px;
+}
+.xterm-viewport::-webkit-scrollbar-thumb {
+    background: #333; 
+}
